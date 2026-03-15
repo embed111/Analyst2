@@ -36,5 +36,19 @@ Use this skill to avoid narrow compliance and provide high-leverage improvements
 3. `Tradeoffs`
 4. `Recommended Next Action`
 
+## Examples
+1. Example A (documentation):
+- Requested result: "补一份需求详情。"
+- Better practice: 同步补齐 AC 取证规范与失败策略。
+- Tradeoff: 文档更长，但减少返工。
+2. Example B (process):
+- Requested result: "生成执行提示词。"
+- Better practice: 先同步文件并做 hash 校验，再输出提示词口令。
+- Tradeoff: 多一步校验，换来跨工作区一致性。
+3. Example C (state maintenance):
+- Requested result: "更新会话快照。"
+- Better practice: 同步更新变更日志并触发体量门禁检查。
+- Tradeoff: 增加一次脚本运行时间，换来长期可维护性。
+
 ## References
 1. Read `references/improvement-patterns.md` for reusable suggestion templates.

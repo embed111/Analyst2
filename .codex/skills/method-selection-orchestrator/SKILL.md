@@ -39,5 +39,19 @@ Use this skill to choose one primary method and optional secondary methods, then
 6. `Conclusion`
 7. `Risks and Verification Next Steps`
 
+## Examples
+1. Example A (root-cause):
+- Problem: "训练队列执行慢且经常返工。"
+- Choice: `first-principles` primary + `logic` secondary.
+- Why: 先拆必要条件，再校验论证跳跃点。
+2. Example B (strategy):
+- Problem: "先做训练模块还是先做分析模块？"
+- Choice: `dialectical-materialism` primary + `systems-thinking` secondary.
+- Why: 需要阶段取舍并识别回路耦合影响。
+3. Example C (uncertainty decision):
+- Problem: "是否立即引入自动发布机制？"
+- Choice: `bayesian-updating` primary + `decision-analysis` secondary.
+- Why: 证据会逐步变化，需动态更新决策置信度。
+
 ## References
 1. Read `references/method-cards.md` for method selection signals, anti-patterns, and quick examples.
